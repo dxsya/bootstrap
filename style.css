@@ -1,0 +1,58 @@
+ul {
+    list-style-type: none;
+    width: 500px;
+}
+
+.btn-danger {
+    height: 48px;
+    border-radius: 0;
+}
+
+.main-image {
+    background: url(./img/bg.png);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+    position: relative;
+}
+
+.active::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 20px;
+    background-color: red;
+    bottom: -15px;
+    left: 0;
+}
+
+.about-us h1{
+    font-size: 50px;
+}
+
+.about-us h4 {
+    font-weight: 600;
+}
+
+.services__list_item img {
+    width: 14%;
+}
+
+.services {
+    background-color: #f6f8f8;
+}
+
+.staff__avatar {
+    background: url(../img/avatar.png);
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+}
+
+.footer__bg {
+    background: url(../img/footer_bg.png);
+    height: 400px;
+}
